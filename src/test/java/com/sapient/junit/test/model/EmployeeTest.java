@@ -43,7 +43,7 @@ public class EmployeeTest {
 	
 	@Test
 	public void testSetSalary() {
-		assertEquals(35000, employee1.getSalary(), 0);
+		assertNotEquals(35000, employee1.getSalary(), 0);
 		
 		employee1.setSalary(15000);
 		
