@@ -178,7 +178,7 @@ public interface CountryInfoServiceSoapType {
     @WebResult(name = "CountryCurrencyResult", targetNamespace = "http://www.oorsprong.org/websamples.countryinfo")
     @RequestWrapper(localName = "CountryCurrency", targetNamespace = "http://www.oorsprong.org/websamples.countryinfo", className = "com.sapient.soap.test.CountryCurrency")
     @ResponseWrapper(localName = "CountryCurrencyResponse", targetNamespace = "http://www.oorsprong.org/websamples.countryinfo", className = "com.sapient.soap.test.CountryCurrencyResponse")
-    public TCurrency countryCurrency(
+    public ListOfCountryNamesByCode countryCurrency(
         @WebParam(name = "sCountryISOCode", targetNamespace = "http://www.oorsprong.org/websamples.countryinfo")
         String sCountryISOCode);
 
