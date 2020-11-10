@@ -47,7 +47,7 @@ public class EmployeeTest {
 		
 		employee1.setSalary(15000);
 		
-		assertEquals(15000, employee1.getSalary(), 0);
+		assertEquals(18000, employee1.getSalary(), 0);
 	}
 	
 	@Test
